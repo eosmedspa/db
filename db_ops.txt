@@ -1,0 +1,14 @@
+Connect to a database
+sqlite3 {DB_NAME}.db
+
+List the tables of a database
+.tables
+
+Check the schema of a table
+.schema {TABLE_NAME}
+
+Disconnect from a database
+.exit
+
+Report all contents of a table
+SELECT * FROM {TABLE_NAME};
